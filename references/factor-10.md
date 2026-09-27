@@ -4,6 +4,6 @@
 
 **Why / when:** Reconsider a worker that owns many unrelated decisions, tools and histories, or a research task that overfills one context. Narrow responsibilities are easier to understand, test and debug.
 
-**Application pattern (illustrative):** First move predictable retrieval and execution out of an oversized worker into code. If distinct model judgments remain, software can partition a research assignment: a source-finding worker receives one question and search tools, a synthesis worker receives compact findings, and the parent coordinates outputs. Give each worker relevant context/tools and a checkable result; if one bounded model call suffices, keep one.
+**Application pattern (illustrative):** First move predictable retrieval and execution out of an oversized worker into code. If distinct model judgments remain, software can partition a research assignment: a source-finding worker receives one question and search tools, a synthesis worker receives compact findings, and the parent coordinates outputs. Give each worker relevant context/tools and a checkable result; if one focused agent invocation suffices, keep one.
 
 **Misreading:** A small agent is not automatically necessary for each step: deterministic work stays in code, and the source's illustrative step range is not a hard cap.
