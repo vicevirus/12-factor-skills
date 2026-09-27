@@ -15,6 +15,8 @@ git clone https://github.com/vicevirus/12-factor-skills.git ~/.agents/skills/hum
 
 The resulting layout is `~/.agents/skills/humanlayer-12-factor/SKILL.md` alongside `references/`. Use the skill automatically for matching LLM architecture tasks or invoke it explicitly: **Codex** `$humanlayer-12-factor`, **OMP** `/skill:humanlayer-12-factor`, **Pi** `/skill:humanlayer-12-factor`.
 
+Automatic selection depends on the coding agent and its model. For important AI application work, invoke the skill explicitly; check that the agent reads `SKILL.md` and the references relevant to its task, then verify the changed application path. A skill guides decisions but cannot enforce them by itself.
+
 ## Add Claude Code
 
 Claude Code uses its personal skills directory. If you completed the shared install above, link the same skill rather than making a second copy:
